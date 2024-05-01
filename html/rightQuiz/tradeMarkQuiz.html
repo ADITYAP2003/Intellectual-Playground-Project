@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trademark Quiz</title>
+    <link rel="stylesheet" href="/static/css/quiz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Test Your Knowledge: Trademark Quiz</h1>
+            <p>Explore the world of trademarks with this interactive quiz!</p>
+        </header>
+
+        <form id="quiz-form">
+            <div class="question">
+                <h2>1. What do trademarks protect?</h2>
+                <label><input type="radio" name="q1" value="a"> a) Inventions</label><br>
+                <label><input type="radio" name="q1" value="b"> b) Brand identities like logos and names</label><br>
+                <label><input type="radio" name="q1" value="c"> c) Trade secrets</label><br>
+                <label><input type="radio" name="q1" value="d"> d) Geographical indications</label>
+            </div>
+
+            <div class="question">
+                <h2>2. Which of the following is an example of a trademark?</h2>
+                <label><input type="radio" name="q2" value="a"> a) A secret recipe</label><br>
+                <label><input type="radio" name="q2" value="b"> b) A unique design for a product</label><br>
+                <label><input type="radio" name="q2" value="c"> c) The process for making a product</label><br>
+                <label><input type="radio" name="q2" value="d"> d) A list of customers</label>
+            </div>
+
+            <div class="question">
+                <h2>3. True or False: Trademarks can only be symbols or logos, not words or phrases.</h2>
+                <label><input type="radio" name="q3" value="true"> True</label><br>
+                <label><input type="radio" name="q3" value="false"> False</label>
+            </div>
+
+            <div class="question">
+                <h2>4. How do trademarks benefit companies?</h2>
+                <label><input type="radio" name="q4" value="a"> a) By allowing them to prevent competitors from using
+                    similar brand identities</label><br>
+                <label><input type="radio" name="q4" value="b"> b) By guaranteeing exclusive rights to produce and sell
+                    certain products</label><br>
+                <label><input type="radio" name="q4" value="c"> c) By providing protection for the manufacturing process
+                    of products</label><br>
+                <label><input type="radio" name="q4" value="d"> d) By granting access to confidential business
+                    information</label>
+            </div>
+
+            <div class="question">
+                <h2>5. What is the primary purpose of trademarks?</h2>
+                <label><input type="radio" name="q5" value="a"> a) To limit competition</label><br>
+                <label><input type="radio" name="q5" value="b"> b) To protect consumers from low-quality
+                    products</label><br>
+                <label><input type="radio" name="q5" value="c"> c) To ensure fair pricing of products</label><br>
+                <label><input type="radio" name="q5" value="d"> d) To safeguard brand identities and promote consumer
+                    trust</label>
+            </div>
+
+            <button type="button" onclick="checkAnswers()">Submit</button>
+        </form>
+
+        <div id="results"></div>
+    </div>
+
+    <script src="/static/js/quiz/tradeMark.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semiconductor Chip Protection Quiz</title>
+    <link rel="stylesheet" href="/static/css/quiz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Test Your Knowledge: Semiconductor Chip Protection Quiz</h1>
+            <p>Explore the world of semiconductor chip protection with this interactive quiz!</p>
+        </header>
+
+        <form id="quiz-form">
+            <div class="question">
+                <h2>1. What do semiconductor chip protections safeguard?</h2>
+                <label><input type="radio" name="q1" value="a"> a) The visual appearance of semiconductor
+                    chips</label><br>
+                <label><input type="radio" name="q1" value="b"> b) New inventions or processes related to semiconductor
+                    manufacturing</label><br>
+                <label><input type="radio" name="q1" value="c"> c) The layout designs of integrated circuits</label><br>
+                <label><input type="radio" name="q1" value="d"> d) Trade secrets of semiconductor companies</label>
+            </div>
+
+            <div class="question">
+                <h2>2. True or False: Semiconductor chip protection only applies to chips used in computers.</h2>
+                <label><input type="radio" name="q2" value="true"> True</label><br>
+                <label><input type="radio" name="q2" value="false"> False</label>
+            </div>
+
+            <div class="question">
+                <h2>3. Which of the following is an example of something that could be protected by semiconductor chip
+                    protection?</h2>
+                <label><input type="radio" name="q3" value="a"> a) The color of a semiconductor chip</label><br>
+                <label><input type="radio" name="q3" value="b"> b) The size of a semiconductor chip</label><br>
+                <label><input type="radio" name="q3" value="c"> c) The layout design of integrated circuits within a
+                    semiconductor chip</label><br>
+                <label><input type="radio" name="q3" value="d"> d) The brand name of a semiconductor chip
+                    manufacturer</label>
+            </div>
+
+            <div class="question">
+                <h2>4. How do semiconductor chip protections benefit manufacturers?</h2>
+                <label><input type="radio" name="q4" value="a"> a) By providing exclusive rights to produce and sell
+                    certain semiconductor chips</label><br>
+                <label><input type="radio" name="q4" value="b"> b) By ensuring that their brand identities are
+                    safeguarded</label><br>
+                <label><input type="radio" name="q4" value="c"> c) By preventing competitors from using similar chip
+                    layout designs</label><br>
+                <label><input type="radio" name="q4" value="d"> d) By guaranteeing access to confidential business
+                    information</label>
+            </div>
+
+            <div class="question">
+                <h2>5. What is the primary purpose of semiconductor chip protection?</h2>
+                <label><input type="radio" name="q5" value="a"> a) To limit competition</label><br>
+                <label><input type="radio" name="q5" value="b"> b) To protect consumers from low-quality semiconductor
+                    chips</label><br>
+                <label><input type="radio" name="q5" value="c"> c) To safeguard the layout designs of integrated
+                    circuits and promote innovation in chip design</label><br>
+                <label><input type="radio" name="q5" value="d"> d) To prevent the sharing of new semiconductor
+                    manufacturing techniques</label>
+            </div>
+
+            <button type="button" onclick="checkAnswers()">Submit</button>
+        </form>
+
+        <div id="results"></div>
+    </div>
+
+    <script src="/static/js/quiz/semiconductorChipProtectionRight.js"></script>
+</body>
+
+</html>

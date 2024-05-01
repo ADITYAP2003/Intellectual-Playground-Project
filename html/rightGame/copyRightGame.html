@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game - Copyright © 2024</title>
+    <link rel="stylesheet" href="/static/css/copyRightGame.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Card Game</h1>
+        <ol>
+            <li>Enter a special ability for attack</li>
+            <li>Assign ability</li>
+            <li>Attack</li>
+            <li>If failed, find reason and resolve</li>
+            <li>Again, attack</li>
+        </ol>
+
+        <div class="card left-card">
+            <img src="/static/assets/userWeapon.jpg" alt="ability-weapon">
+            <form id="ability-form">
+                <input type="text" class="ability-input" id="ability-input" placeholder="Enter ability like burn enemy"
+                    required>
+                <button type="submit" class="assign-button">Assign Ability</button>
+            </form>
+        </div>
+
+        <div class="card right-card">
+            <img id="right-card-img" src="" alt="">
+        </div>
+    </div>
+    <script src="/static/js/copyRightGame.js"></script>
+</body>
+
+</html>

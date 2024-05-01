@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/static/css/contactUS.css">
+</head>
+
+<body>
+    <h2 style="text-align: center;">Contact Us</h2>
+
+    <form method='POST' action='/contact-submit' name="contactForm">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name"><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address"><br>
+
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" required placeholder="Enter the subject"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Message</legend>
+            <textarea id="message" name="message" rows="4" cols="50" required
+                placeholder="Enter your message"></textarea><br>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>

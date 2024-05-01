@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="/static/css/mainPage.css">
+    <link rel="stylesheet" href="/static/css/mainPageResponsive.css" media="screen and (max-width: 768px)">
+</head>
+
+<body>
+    <nav>
+        <div class="menu-icon">&#9776;</div>
+        <ul class="menu">
+            <li><a href="/static/html/aboutIP.html">AboutIP</a></li>
+            <li><a href="/static/html/aboutIPCopy.html">LearnIP</a></li>
+            <li><a href="/static/html/contactUS.html">ContactUs</a></li>
+        </ul>
+    </nav>
+    <div class="mainPageContentBlock1">
+        <a href="/static/html/introduction.html"><img src="/static/assets/introduction.jpg" alt=""></a>
+        <a href="/static/html/keyFeature.html"><img src="/static/assets/keyFeatures.jpg" alt=""></a>
+        <a href="/static/html/benefits.html"><img src="/static/assets/benifits.jpg" alt=""></a>
+    </div>
+    <div class="mainPageContentBlock2">
+        <a href="/static/html/aboutDevelopers.html"><img src="/static/assets/aboutDevelopers.jpg" alt=""></a>
+        <a href="/static/html/contactUS.html"><img src="/static/assets/contactUs.jpg" alt=""></a>
+        <a href="/static/html/aboutIPCopy.html"><img src="/static/assets/startLearning.jpg" alt=""></a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Intellectual Playground. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuIcon = document.querySelector('.menu-icon');
+            const menu = document.querySelector('nav ul');
+            const body = document.querySelector('body');
+
+            menuIcon.addEventListener('click', function () {
+                menu.classList.toggle('active');
+                body.classList.toggle('nav-active');
+            });
+        });
+    </script>
+</body>
+
+</html>

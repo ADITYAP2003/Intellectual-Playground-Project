@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="/static/css/registerPage.css">
+</head>
+
+<body>
+    <h2 style="text-align: center;">User Registration Form</h2>
+
+    <form method='POST' action='/submit' name="registerForm" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name"><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address"><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Login Information</legend>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required placeholder="Enter a username"
+                pattern="[a-zA-Z0-9_]{3,20}"
+                title="Username must be 3-20 characters and can contain letters, numbers, and underscores"><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required placeholder="Enter a password" pattern=".{6,}"
+                title="Password must be at least 6 characters"><br>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
