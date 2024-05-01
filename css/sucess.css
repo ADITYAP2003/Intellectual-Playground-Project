@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #2ecc71;
+}
+
+p {
+    color: #555;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #27ae60;
+}

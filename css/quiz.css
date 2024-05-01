@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("/static/assets/webBackground.png");
+    background-size: cover;
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+button {
+    background-color: #0077cc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0055a3;
+}
+
+#results {
+    margin-top: 30px;
+    font-size: 1.2em;
+}

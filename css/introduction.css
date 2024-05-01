@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: url("/static/assets/webBackground.png");
+    padding: 0;
+    color: #333;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+ol,
+ul {
+    padding-left: 20px;
+}
+
+ol li,
+ul li {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}

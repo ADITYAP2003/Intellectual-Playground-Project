@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url("/static/assets/webBackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #272b30;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 10px;
+}

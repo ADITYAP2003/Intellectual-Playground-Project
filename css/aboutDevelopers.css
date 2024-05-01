@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("/static/assets/webBackground.png");
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    padding: 0 20px;
+}
+
+
+.team-member {
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.team-member h3 {
+    color: rgba(7, 246, 75, 0.886);
+}

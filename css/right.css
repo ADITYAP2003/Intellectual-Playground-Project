@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url("/static/assets/webBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    margin: auto;
+}
+
+p {
+    line-height: 1.6;
+    margin: 3vh 0vh 3vh 10vh;
+}
+
+.highlight {
+    background-color: #ffff99;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 3vh 0vh 3vh 5vh;
+}
+
+h3 {
+    margin: 2vh;
+}
+
+.next-button {
+    background-color: bisque;
+    cursor: pointer;
+    height: 6vh;
+    width: 90%;
+    text-align: center;
+    margin: 2vh;
+    margin-bottom: 0vh;
+}

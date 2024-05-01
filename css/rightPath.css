@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url("/static/assets/webBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.next-button {
+    background-color: bisque;
+    cursor: pointer;
+    height: 6vh;
+    width: 90%;
+    text-align: center;
+    margin: 2vh;
+}
