@@ -1,5 +1,6 @@
 # 🎮 Gamified Platform for Intellectual Property Rights Awareness
 site is live at https://ip-awareness.onrender.com/
+
 This project is a gamified platform designed to increase awareness of intellectual property rights among students aged 8 to 14. Through interactive games, quizzes, and educational content, the platform aims to educate and engage young users in understanding the importance of protecting intellectual property.
 
 The platform features:
